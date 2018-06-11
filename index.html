@@ -1,91 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <!-- Meta Tags  -->
     <meta charset="utf-8"/>
-
-    <title>Ahmed AlamEldin Portfolio | Home</title>
-
-    <meta name="description" content="Introducing latest works and bla bla bla I can add here, dont forget to mention Udacity"/>
+    <meta name="description" content="Front-End Developer Nanodegree Project (Build a Portfolio Site)"/>
     <meta name="keywords" content="Ahmed AlamEldin, Udacity, Front End Web development Nanodegree"/>
-
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+  <!-- Website Page Title  --> 
+    <title>Ahmed AlamEldin Portfolio | Home</title>
 
-    <link rel="stylesheet" href="css/style.css">
-    
+   <!-- CSS Files & Links, I use Materialize library to design this protfolio project -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/materialize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <!-- Here is our main header that is used across all the pages of our website -->
 
-    <header>
-            <h1>Ahmed AlamEldin</h1>
-            <h3>Front-End Design Lover</h3>
-     </header>
+  <!-- Here is the main header that will be used across all the pages of my future portfolio site -->
 
-     <nav>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Our team</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
+  <header class="header">
+
+      <a href="index.html" class="logo">
+        <img src="imgs/aalogo.svg" alt="Portfolio Logo Image">
+    </a>
+    <div class="header-right">
+      <h1>Ahmed AlamEldin</h1>
+      <h3>Front-End Design Lover</h3>
+    </div>
+    
+  </header>
+
+  <!-- I know there is no NAVIGATION in the mockup but I think there is no success portfolio without a navigation? and you said this is my protfolio after all ^_^ and I really want to test live what we learn at Lesson 13 Common Responsive Patterns, Chapter 9 Pattern - Off Canvas, and I hope that I did it correctly.
+  
+  The nav is hidden for now, to respect the mockup, but you can remove the comment code to see the result, will not effect the website if we show it or remove it at all-->
+
+  <nav class="nav">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Here is the main content of the site-->
+
+  <!--   START Image Temp Section TEST  -->
+  <div class="top-img">
       
-             <!-- A Search form is another commmon non-linear way to navigate through a website. -->
+        <div class="container">
+          
+          <h1 class= "center">Parallax Template</h1>
+          <h3 class="center">Hello</h3>
+          
+          <div class="row center">
+            <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+          </div>
+  
+        </div>
       
-             <form>
-               <input type="search" name="q" placeholder="Search query">
-               <input type="submit" value="Go!">
-             </form>
-    </nav>
+      <div class="bkgd"><img src="imgs/background1.jpg" alt="Unsplashed background img 1" style="transform: translate3d(-50%, 87.2285px, 0px); opacity: 1;"></div>
+    </div>
+
+<!--   END Image Temp Section TEST  -->
+
+  <div class="container">
+    <div class="section">
+  
+        <!--   Icon Section   -->
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+              <h5 class="center">Speeds up development</h5>
+  
+              <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            </div>
+          </div>
+  
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+              <h5 class="center">User Experience Focused</h5>
+  
+              <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            </div>
+          </div>
+  
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+              <h5 class="center">Easy to work with</h5>
+  
+              <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      <br><br>
+    </div>
     <main>
 
-            <!-- It contains an article -->
-            <article>
-              <h2>Article heading</h2>
-      
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
-      
-              <h3>subsection</h3>
-      
-              <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
-      
-              <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
-      
-              <h3>Another subsection</h3>
-      
-              <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
-      
-              <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
-
-              <p>The King walked drunkenly back to his room at 01:00, the beer doing nothing to aid
-                    him as he staggered through the door <span class="editor-note">[Editor's note: At this point in the
-                    play, the lights should be down low]</span>.</p>
-
-            </article>
-      
-            <!-- the aside content can also be nested within the main content -->
-            <aside>
-              <h2>Related</h2>
-      
-              <ul>
-                <li><a href="#">Oh I do like to be beside the seaside</a></li>
-                <li><a href="#">Oh I do like to be beside the sea</a></li>
-                <li><a href="#">Although in the North of England</a></li>
-                <li><a href="#">It never stops raining</a></li>
-                <li><a href="#">Oh well...</a></li>
-              </ul>
-            </aside>
-      
-          </main>
-
-          <!-- And here is our main footer that is used across all the pages of our website -->
-
-    <footer>
-            <p>©Copyright 2050 by nobody. All rights reversed.</p>
-    </footer>
-      
-
+    
+  <!-- Like the navigation, I put a footer for the website, also you can remove the comment code to see the result, It will not effect the website if we show it or remove it at all-->   
+  <footer>
+    <p>©Copyright 2050 by nobody. All rights reversed.</p>
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/mine.js"></script>
 </body>
 </html>
