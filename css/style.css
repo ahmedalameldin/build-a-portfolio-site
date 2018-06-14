@@ -1,3 +1,9 @@
+html {
+  line-height: 1.5;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.87);
+}
 
 .header {
     overflow: hidden;
@@ -5,17 +11,12 @@
     padding: 20px 60px;
     text-align: right;
     color: #ddb426;
-    font-family: ubtunu;
+    font-family: 'Exo', sans-serif;
   }
 
 .header a {
     float: left;
     padding: 12px;
-  }
-
-  .header a.logo {
-    font-size: 25px;
-    font-weight: bold;
   }
 
   .header-right {
@@ -24,8 +25,8 @@
   }
   .header h1 {
     font-size: 44px;
-    margin: 10px 0;
-    font-weight: 600;
+    margin: 20px 0;
+    font-weight: 700;
   }
   .header h3 {
     font-size: 26px;
@@ -50,10 +51,21 @@
       padding: 0 25px;
   }
 
+  .active {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+
+
+  .title-sec {
+    margin: 40px 0;
+  }
+
   .top-img {
     position: relative;
     overflow: hidden;
     height: 500px;
+    color: #fff;
   }
   
   .top-img .bkgd {
@@ -75,5 +87,47 @@
 
   /* here is verfied edit by me */
   .top-img h1 {
-      color: aqua;
+      letter-spacing: 10px;
+      text-transform: uppercase;
+      font-family: 'Exo', sans-serif;
+      margin-top: 80px;
   }
+
+  a.btn-white {
+    display: inline-block;
+    padding: 0.8em 1.4em;
+    border: 0.1em solid #fff;
+    color:#fff;
+    text-align:center;
+    transition: all 0.5s;
+    text-transform: uppercase;
+    margin: 40px 0;
+    }
+    
+    a.btn-white:hover{
+    color:#000;
+    background-color:#fff;
+    }
+
+  a.btn-black {
+    display: block;
+    padding: 0.8em 1.4em;
+    border: 0.1em solid #000;
+    color:#000;
+    text-align:center;
+    transition: all 0.5s;
+    text-transform: uppercase;
+    margin: 40px 0;
+    }
+    
+    a.btn-black:hover{
+    color:#fff;
+    background-color:#000;
+    }
+
+    .featimg {
+      padding-bottom: 30px;
+    }
+
+
+    
