@@ -96,14 +96,14 @@ a.btn-black {
   text-align: center;
   transition: all 0.5s;
   text-transform: uppercase;
-  margin: 25px 0;
+  margin: 35px 0;
 }
 
 a.btn-black:hover {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.24), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
 }
 
-.featimg img {
+.featimg img, picture {
   padding-bottom: 10px;
   width: 100%;
 }
