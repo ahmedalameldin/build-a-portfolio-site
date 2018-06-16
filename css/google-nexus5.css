@@ -1,23 +1,35 @@
+/* Google: Nexus 5 styles */
+
+/* NOTE: I choose to make this sperated style sheet to easy edited in future than embed to original syles.css file */
+
 @media only screen and (max-width : 360px) {
-    .row .col.m4 {
-        width: 100%;
-        margin-left: auto;
-        left: auto;
-        right: auto;
-    }
+  .row .col.m4 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
 
-    .header {
-        overflow: hidden;
-        padding: 20px 10px;
-        text-align: center;
-      }
+  .header {
+    overflow: hidden;
+    padding: 20px 10px;
+    text-align: center;
+  }
 
-      .header a {
-          float: none;
-      }
-/* Responsive Navigation */
+  .header a {
+    float: none;
+  }
 
+  .top-img h1 {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: 'Exo', sans-serif;
+    margin-top: 80px;
+    font-size: 3.5em;
+  }
 
-
-
+  .top-img h3 {
+    font-size: 2em;
+    line-height: 35px;
+  }
 }

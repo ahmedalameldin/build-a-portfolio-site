@@ -1,6 +1,6 @@
 /* Tablet: Apple iPad styles */
 
-/* NOTE: I choose to make this style sheet to easy edited if future than embed to original syles.css file */
+/* NOTE: I choose to make this style sheet to easy edited in future than embed to original syles.css file */
 
 @media only screen and (min-width: 768px) and (max-width: 1025px) {
     .row .col.m4 {
@@ -8,5 +8,5 @@
         margin-left: auto;
         left: auto;
         right: auto;
-    }
+    }   
 }
