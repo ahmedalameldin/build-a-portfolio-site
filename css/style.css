@@ -47,7 +47,7 @@ html {
   height: 500px;
   color: #fff;
 }
-  
+
 .top-img .bkgd {
   position: absolute;
   top: 0;
@@ -56,7 +56,7 @@ html {
   bottom: 0;
   z-index: -1;
 }
-  
+
 .top-img .bkgd img {
   position: absolute;
   left: 50%;
@@ -64,7 +64,7 @@ html {
   min-width: 100%;
   min-height: 100%;
 }
-  
+
 .top-img h1 {
   letter-spacing: 10px;
   text-transform: uppercase;
@@ -76,32 +76,31 @@ a.btn-white {
   display: inline-block;
   padding: 0.8em 1.4em;
   border: 0.1em solid #fff;
-  color:#fff;
-  text-align:center;
+  color: #fff;
+  text-align: center;
   transition: all 0.5s;
   text-transform: uppercase;
   margin: 40px 0;
 }
-    
-a.btn-white:hover{
-  color:#000;
-  background-color:#fff;
+
+a.btn-white:hover {
+  color: #000;
+  background-color: #fff;
 }
 
 a.btn-black {
   display: block;
   padding: 0.8em 1.4em;
   background-color: #ddb426;
-  color:#000;
-  text-align:center;
+  color: #000;
+  text-align: center;
   transition: all 0.5s;
   text-transform: uppercase;
   margin: 25px 0;
-  
 }
-    
-a.btn-black:hover{
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24), 0 3px 12px 0 rgba(0,0,0,0.19);
+
+a.btn-black:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.24), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
 }
 
 .featimg img {
