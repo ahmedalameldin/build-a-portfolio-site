@@ -63,6 +63,7 @@ html {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  transform: translate3d(-50%, 87.2285px, 0px); opacity: 1;
 }
 
 .top-img h1 {
@@ -72,7 +73,7 @@ html {
   margin-top: 80px;
 }
 
-a.btn-white {
+.btn-white {
   display: inline-block;
   padding: 0.8em 1.4em;
   border: 0.1em solid #fff;
@@ -83,12 +84,12 @@ a.btn-white {
   margin: 40px 0;
 }
 
-a.btn-white:hover {
+.btn-white:hover {
   color: #000;
   background-color: #fff;
 }
 
-a.btn-black {
+.btn-yel {
   display: block;
   padding: 0.8em 1.4em;
   background-color: #ddb426;
@@ -99,11 +100,12 @@ a.btn-black {
   margin: 35px 0;
 }
 
-a.btn-black:hover {
+.btn-yel:hover {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.24), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
 }
 
-.featimg img, picture {
+.featimg img,
+picture {
   padding-bottom: 10px;
   width: 100%;
 }
